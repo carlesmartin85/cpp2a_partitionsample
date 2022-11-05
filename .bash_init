@@ -1,0 +1,4 @@
+g++-12 -std=c++2a -fmodules-ts -xc++-system-header iostream;
+g++-12 -std=c++2a -fmodules-ts -xc++-system-header string;
+g++-12 -std=c++2a -fmodules-ts -c ../src/butter.cc -o modules/butter.pcm;
+g++-12 -std=c++2a -fmodules-ts -c ../src/jam.cc -o modules/jam.pcm;
